@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+    <link rel="stylesheet" type="text/css" href="css/website.css">
+    <link rel=stylesheet href="style.css">
+</head>
+
+<body>
+
+    <h1> Formulier Verhalenwebsite</h1>
+
+    <main>
+
+        <form action="formulier.html" method="post">
+
+
+            Vul je gegevens in
+            <br>
+            <label>Naam: <input type="text" name="name">
+    </label>
+            <br>
+
+
+            <label>Leeftijd: <input type="number" name="age" />
+    </label>
+            <br>
+            <label>Geslacht:</label>
+
+            <input id="female" type="radio" name="gender" value="f">
+            <label for="female">Vrouw</label>
+
+            <input id="male" type="radio" name="gender" value="m">
+            <label for="male">Man</label>
+            <br>
+            <label>Geboortedatum:  <input type="date" name="bday" max="2018-01-02"><br></label>
+            <label>Mobiele nummer:  <input type="tel" name="usrtel" placeholder="06"> </label>
+            <br> <br> Je accountgegevens
+            <br>
+            <label>Roepnaam: <input type="text" name="roepnaam"> </label>
+            <br>
+            <label>Email: <input type="email" name="emailaddress"
+                placeholder="transavia@gmail.com" />
+    </label>
+            <br>
+            <label>Wachtwoord:  <input type="password" name="password"/></label>
+            <br> <br>
+
+
+
+            <label>
+  <input type="checkbox">
+  I accept the <a href="https://www.transavia.com/nl-NL/de-kleine-lettertjes/disclaimer/">Terms and Conditions</a>
+</label>
+
+        </form>
+        <ul>
+            <li> <a href="checkin.html" class="button"> Verstuur</a>
+        </ul>
+    </main>
+</body>
+
+</html>

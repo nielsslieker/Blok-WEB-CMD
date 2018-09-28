@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Galano';
+    src: url('fonts/Galano.otf');
+}
+
+body {
+    background-color: #F3DBC6;
+}
+
+h1 {
+    font-family: 'Galano', sans-serif;
+    color: #3AD56D;
+    background-color: white;
+    margin-bottom: 1em;
+    padding: 1.5em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Galano', sans-serif;
+    text-align: center;
+    color: #3AD56D;
+    background-color: white;
+    width: 16.65em;
+    margin: 0 auto;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+label {
+    color: #2C0297;
+}
+
+form {
+    width: 23em;
+    margin: 0 auto;
+    background-color: #FFF6EE;
+    text-align: left;
+    font-family: 'Galano', sans-serif;
+}
+
+form {
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding: 1em;
+}
+
+#vrolijk {
+    padding: 2em;
+}
+
+
+/* Customize the label (the container) */
+
+.filter {
+    display: block;
+    position: relative;
+    padding-left: 1em;
+    padding-top: 0.2em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.filter2 {
+    font-size: 1.2em;
+    padding-left: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+}
+
+article,
+img[alt~=boek] {
+    width: 23em;
+    margin: 0 auto;
+    margin-top: 1em;
+}
